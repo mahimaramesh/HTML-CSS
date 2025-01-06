@@ -1,0 +1,36 @@
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: gray;
+}
+
+.mail {
+  margin-bottom: 8px;
+}
+
+.search-bar {
+  width: 310px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  outline: none;
+  border: solid;
+  border-width: 1.5px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  font-size: 16px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border-radius: 22px;
+}
+
