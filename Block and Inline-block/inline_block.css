@@ -1,0 +1,14 @@
+p {
+  width: 210px;
+  font-size: 17px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.name {
+  vertical-align: middle;
+}
+
+.email {
+  vertical-align: middle;
+}
