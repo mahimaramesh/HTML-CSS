@@ -1,0 +1,41 @@
+div {
+  text-align: center;
+}
+
+.google {
+  width: 250px;
+  display: block;
+  margin: auto;
+  margin-bottom: 12px;
+}
+
+.search-bar {
+  width: 300px;
+  font-size: 15px;
+  padding-left: 10px;
+  padding-right: 200px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  border-radius: 20px;
+  border-width: 0.01px;
+  outline: none;
+  border: none;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  margin-left: 520px;
+  display: block;
+  margin-bottom: 30px;
+}
+
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  display: inline-block;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search {
+  margin-right: 13px;
+}
