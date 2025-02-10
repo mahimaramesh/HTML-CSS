@@ -1,3 +1,7 @@
+.p {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
 .face {
   width: 120px;
   display: inline-block;
@@ -46,4 +50,9 @@ button {
   margin-top: 0;
   margin-left: 7px;
   margin-bottom: 8px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(5, 75, 141);
 }
