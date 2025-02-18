@@ -20,8 +20,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   display: grid;
   grid-template-rows: auto 1fr auto;
-  /* align-items: center;
-  text-align: center; */
+  align-items: center;
 }
 
 .image1 {
