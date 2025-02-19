@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  width: 350px;
+  gap: 15px;
+}
+
+.profile-container {
+  flex-shrink: 0;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.identity,
+.status {
+  color: #666;
+  font-size: 14px;
+}
+
+.status {
+  font-size: 12px;
+}
+
+.button-container {
+  flex-shrink: 0;
+}
+
+.buttons {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.buttons:hover {
+  background: #0056b3;
+}
